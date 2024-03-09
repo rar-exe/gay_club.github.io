@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&display=swap');
+
+body{
+    font-family: "ABeeZee", sans-serif;
+    margin: 0;
+    height: 100%;
+}
+
+header{
+    width: 100%;
+    height: 100%;
+    background-image: url("/img/backgroung.jpg");
+    background-repeat:no-repeat;
+    background-position: center center;
+}
+
+.header_content{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(61, 49, 78, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.main_content{
+    padding: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.main_left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.upcoming_events{
+    position: relative;
+    width: 700px;
+    height: 400px;
+    background-color: rgba(130, 66, 117, 0.7);
+    border-radius: 50px;
+}
+
+.upcoming_events_block{
+    position: absolute;
+    z-index: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(130, 66, 117, 0.87);
+    filter: blur(20px);
+    border-radius: 50px;
+}
+
+.upcoming_events_content{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.upcoming_events_text{
+    margin: 40px 0 0 40px;
+    color: #3D314E;
+    font-size: 35px;
+}
+
+.upcoming_events_timetable{
+    margin: 0 40px 40px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.event{
+    background-color: #3D314E;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.event_time{
+    font-size: 40px;
+    color: #7477BC;
+}
+
+.event_name{
+    font-size: 35px;
+    color: #7477BC;
+}
+
+.tickets{
+    position: relative;
+    width: 700px;
+    height: 400px;
+    background-color: rgba(130, 66, 117, 0.7);
+    border-radius: 50px;
+}
+
+.tickets_block{
+    position: absolute;
+    z-index: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(130, 66, 117, 0.87);
+    filter: blur(20px);
+    border-radius: 50px;
+}
+
+.tickets_content{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.tickets_text{
+    font-size: 100px;
+    color: #CE94DC;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.buy_btn{
+    width: 400px;
+    height: 150px;
+    background-color: #7477BC;
+    color: #3D314E;
+    border: none;
+    border-radius: 50px;
+    font-size: 70px;
+    text-transform: uppercase;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.25);
+}
+
+.happy_photo{
+    width: 700px;
+    height: 900px;
+    background-color: rgba(130, 66, 117, 0.7);
+    background-image: url("../img/happy_client.png");
+    background-repeat:no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+    border-radius: 50px;
+}
+
+.buy_btn:hover{
+    scale: 1.05;
+    transition: 0.3s ease-in-out;
+}
+
+.buy_btn:not(:hover){
+    scale: 1;
+    transition: 0.3s ease-in-out;
+}
+
+.buy_btn:active{
+    scale: 0.95;
+    transition: 0.3s ease-in-out;
+}

@@ -1,13 +1,84 @@
+#nav{
+    position: sticky;
+    z-index: 100;
+    background-color: rgba(22, 17, 9, 0.5);
+}
+
 nav{
-    padding: 40px;
+    padding:20px 40px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
+.logo{
+    display: flex;
+    flex-direction: row;
+    gap: 0;
+    text-decoration: none;
+}
+
+.logo-img{
+    height: 60px;
+}
+
+.logo_name{
+    height: 60px;
+    font-size: 60px;
+    text-transform: uppercase;
+    color: #CE94DC;
+}
+
 .nav_links{
+    margin: 0;
     list-style: none;
     display: flex;
     flex-direction: row;
-    gap: 30px;
+    gap: 40px;
+}
+
+.nav_link > a{
+    text-decoration: none;
+    color: #CE94DC;
+    font-size: 45px;
+}
+
+.nav_link > a:hover{
+    color: #824275;
+    transition: 0.3s ease-in-out;
+}
+
+.nav_link:hover{
+    scale: 1.05;
+    transition: 0.3s ease-in-out;
+}
+
+.nav_link > a:not(:hover){
+    color: #CE94DC;
+    transition: 0.3s ease-in-out;
+}
+
+.nav_link:not(:hover){
+    scale: 1;
+    transition: 0.3s ease-in-out;
+}
+
+.nav_link:active{
+    scale: 0.95;
+    transition: 0.3s ease-in-out;
+}
+
+.logo:hover{
+    scale: 1.05;
+    transition: 0.3s ease-in-out
+}
+
+.logo:not(:hover){
+    scale: 1;
+    transition: 0.3s ease-in-out
+}
+
+.logo:active{
+    scale: 0.95;
+    transition: 0.3s ease-in-out
 }
