@@ -1,0 +1,21 @@
+.footer__content{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footer__info > div{
+    display: flex;
+    flex-direction: column;
+}
+
+.additional{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

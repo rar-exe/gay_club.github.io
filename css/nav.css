@@ -1,0 +1,13 @@
+nav{
+    padding: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.nav_links{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
