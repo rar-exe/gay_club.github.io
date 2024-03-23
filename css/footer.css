@@ -1,6 +1,9 @@
 .footer__content{
     display: flex;
     flex-direction: column;
+    gap: 80px;
+    background-color: #3D314E;
+    padding: 40px;
 }
 
 .footer__info{
@@ -12,10 +15,34 @@
 .footer__info > div{
     display: flex;
     flex-direction: column;
+    gap: 40px;
 }
 
 .additional{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+}
+
+a{
+    cursor: pointer;
+    font-size: 50px;
+    text-decoration: none;
+    color: #CE94DC;
+}
+
+.additional > a{
+    font-size: 30px;
+}
+
+a:hover{
+    scale: 1.05;
+    text-decoration: underline;
+    transition: 0.3s ease-in-out;
+}
+
+a:not(:hover){
+    scale: 1;
+    text-decoration: none;
+    transition: 0.3s ease-in-out;
 }

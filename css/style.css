@@ -6,6 +6,18 @@ body{
     height: 100%;
 }
 
+.copyboard{
+    display: none;
+    background-color: rgba(61, 49, 78, 0.8);
+    padding: 10px;
+    font-size: 50px;
+    color: #CE94DC;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+    border: 25px;
+}
+
 header{
     width: 100%;
     height: 100%;
